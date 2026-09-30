@@ -1,5 +1,5 @@
 """
-AuraFarm V3: Autonomous Industrial Economic & Planning Agent for Kaggle Kaggriculture.
+AuraFarm V4: Strawberry Lifecycle + Capital Discipline Agent for Kaggle Kaggriculture.
 Built on empirical simulator reverse-engineering:
 - Exact simulator constants, market parameters, and town shop demand curves
 - Aggressive Day-0 Capital Allocation ($2,912 capex: 4 livestock + 12 Melons + feed buffer + 5 hands)
@@ -8,6 +8,10 @@ Built on empirical simulator reverse-engineering:
 - Town-Drained Wheat Production Engine (25-35 tiles, 60-90 unit batch sales capturing peak prices)
 - Scaled Industrial Workforce (scaling to 11 hands daily across 3 quadrants / 75 tiles)
 - Spatial Clustered Dispatch & Conflict-Free Shed Logistics
+- Lifecycle-safe planting and fresh-seed watering
+- Strawberry-focused production with bounded planting and repeated harvests
+- Reduced caretaker reservation for premium-crop throughput
+- Capital discipline: smaller seed buffers and no late crop spam
 - Terminal Liquidation on Step 718
 
 Standard library only. Robust against unexpected observation shapes.
@@ -31,6 +35,11 @@ TURNS_PER_DAY = 24
 TOTAL_DAYS = 30
 TOTAL_STEPS = 720
 LAST_ACT_STEP = 718
+
+TARGET_STRAWBERRIES = 60
+TARGET_WHEAT_PLANTS = 30
+TARGET_CARROT_PLANTS = 8
+MAX_NEW_STRAWBERRIES_PER_DAY = 6
 
 CROPS = {
     "WHEAT":      {"seed": 10, "first_yield_day": 2, "max_yield_day": 4, "interval": 0, "max_yield": 6, "ongoing": False},
@@ -320,7 +329,15 @@ class AuraFarmV3:
         inventories = private.get("inventories", [{}])
         market_inv = market.get("inventory", {})
         market_prices = market.get("prices", {})
-        
+
+        active_crop_counts = collections.Counter()
+        for row in tiles:
+            for tile in row:
+                if isinstance(tile, dict) and tile.get("kind") == "PLANT":
+                    crop = tile.get("crop")
+                    if crop:
+                        active_crop_counts[crop] += 1
+
         # ----------------------------------------------------------------------
         # A. STRATEGIC MARKET ORDERS
         # ----------------------------------------------------------------------
@@ -379,15 +396,18 @@ class AuraFarmV3:
             market_orders.append(["BUY_ANIMAL", "COW", 4])
             market_orders.append(["BUY_ANIMAL", "SHEEP", 4])
             
-        # 7. Seed Buffer Management
-        if self.day < 24 and len(market_orders) < MAX_ORDERS:
-            if seeds.get("WHEAT", 0) < 25 and money >= 300:
-                market_orders.append(["BUY_SEED", "WHEAT", 25])
-            if self.day >= 6 and seeds.get("STRAWBERRY", 0) < 25 and money >= 1200 and len(market_orders) < MAX_ORDERS:
-                market_orders.append(["BUY_SEED", "STRAWBERRY", 25])
+        # 7. V4 Seed Management
+        if self.day <= 18 and len(market_orders) < MAX_ORDERS:
+            strawberry_gap = max(0, TARGET_STRAWBERRIES - active_crop_counts.get("STRAWBERRY", 0) - seeds.get("STRAWBERRY", 0))
+            if self.day >= 6 and strawberry_gap > 0 and money >= 100:
+                market_orders.append(["BUY_SEED", "STRAWBERRY", min(10, strawberry_gap)])
+            wheat_gap = max(0, TARGET_WHEAT_PLANTS - active_crop_counts.get("WHEAT", 0) - seeds.get("WHEAT", 0))
+            if self.day <= 12 and wheat_gap > 0 and money >= 10:
+                market_orders.append(["BUY_SEED", "WHEAT", min(10, wheat_gap)])
         elif 24 <= self.day <= 26 and len(market_orders) < MAX_ORDERS:
-            if seeds.get("CARROT", 0) < 25 and money >= 400:
-                market_orders.append(["BUY_SEED", "CARROT", 25])
+            carrot_gap = max(0, TARGET_CARROT_PLANTS - active_crop_counts.get("CARROT", 0) - seeds.get("CARROT", 0))
+            if carrot_gap > 0 and money >= 20:
+                market_orders.append(["BUY_SEED", "CARROT", min(5, carrot_gap)])
                 
         # 8. Feed Buffer Guarantee (Never allow shed wheat to drop below 15)
         if shed.get("WHEAT", 0) < 15 and self.day < 28 and money >= 400 and len(market_orders) < MAX_ORDERS:
