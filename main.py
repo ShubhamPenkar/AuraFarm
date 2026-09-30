@@ -587,7 +587,14 @@ class AuraFarmV3:
                     crop_name = curr_tile.get("crop")
                     cdata = CROPS.get(crop_name, {})
                     age = self.day - curr_tile.get("planted_day", 0)
-                    if age >= cdata.get("first_yield_day", 99) and curr_tile.get("yield_units", 0) > 0:
+                    if (
+                        crop_name == "STRAWBERRY"
+                        and u_inv.get("FERTILIZER", 0) > 0
+                        and curr_tile.get("fertilized_until_day", -1) < self.day
+                        and 8 <= age <= 15
+                    ):
+                        action = ["FERTILIZE"]
+                    elif age >= cdata.get("first_yield_day", 99) and curr_tile.get("yield_units", 0) > 0:
                         action = ["HARVEST"]
                     elif not curr_tile.get("watered_today", False):
                         action = ["WATER"]
@@ -599,19 +606,27 @@ class AuraFarmV3:
                     # Pen slot needs structure
                     action = ["BUILD_PASTURE"]
                 else:
-                    # Empty crop slot
+                    # Empty crop slot: bounded production, no late strawberry spam.
                     if self.day == 0 and seeds.get("MELON", 0) > 0:
                         action = ["PLANT", "MELON"]
-                    elif 24 <= self.day <= 28 and seeds.get("CARROT", 0) > 0:
-                        action = ["PLANT", "CARROT"]
-                    elif self.day >= 6 and seeds.get("STRAWBERRY", 0) > 0 and (ux >= 5 or uy >= 5):
+                    elif (
+                        6 <= self.day <= 18
+                        and active_crop_counts.get("STRAWBERRY", 0) < TARGET_STRAWBERRIES
+                        and seeds.get("STRAWBERRY", 0) > 0
+                    ):
                         action = ["PLANT", "STRAWBERRY"]
-                    elif seeds.get("WHEAT", 0) > 0:
+                    elif (
+                        self.day <= 12
+                        and active_crop_counts.get("WHEAT", 0) < TARGET_WHEAT_PLANTS
+                        and seeds.get("WHEAT", 0) > 0
+                    ):
                         action = ["PLANT", "WHEAT"]
-                    elif seeds.get("MELON", 0) > 0:
-                        action = ["PLANT", "MELON"]
-                    elif seeds.get("STRAWBERRY", 0) > 0:
-                        action = ["PLANT", "STRAWBERRY"]
+                    elif (
+                        24 <= self.day <= 26
+                        and active_crop_counts.get("CARROT", 0) < TARGET_CARROT_PLANTS
+                        and seeds.get("CARROT", 0) > 0
+                    ):
+                        action = ["PLANT", "CARROT"]
                         
             if action != ["PASS"]:
                 unit_actions.append(action)
@@ -629,13 +644,21 @@ class AuraFarmV3:
                             shed_reserved[anim] += 1
                             break
                             
-                # Pick up Wheat feed if caretaker and inventory is low
+                # Pick up Wheat feed if caretaker and inventory is low.
                 if action == ["PASS"] and is_caretaker and u_inv.get("WHEAT", 0) < 10:
                     avail_wheat = shed.get("WHEAT", 0) - shed_reserved["WHEAT"]
                     if avail_wheat > 0:
                         take_qty = min(20, avail_wheat)
                         action = ["PICKUP", "WHEAT", take_qty]
                         shed_reserved["WHEAT"] += take_qty
+
+                # Field workers carry a small fertilizer buffer for strawberries.
+                if action == ["PASS"] and not is_caretaker and u_inv.get("FERTILIZER", 0) < 2:
+                    avail_fert = shed.get("FERTILIZER", 0) - shed_reserved["FERTILIZER"]
+                    if avail_fert > 0:
+                        take_qty = min(3, avail_fert)
+                        action = ["PICKUP", "FERTILIZER", take_qty]
+                        shed_reserved["FERTILIZER"] += take_qty
                         
             if action != ["PASS"]:
                 unit_actions.append(action)
