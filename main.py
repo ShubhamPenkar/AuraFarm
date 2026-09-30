@@ -431,9 +431,9 @@ class AuraFarmV3:
         if melon_qty > 0 and len(market_orders) < MAX_ORDERS:
             market_orders.append(["SELL", "MELON", melon_qty])
             
-        # Strawberries: sell in batches of >= 10 or day >= 26
+        # Sell strawberry output promptly; don't strand premium produce in the shed.
         straw_qty = shed.get("STRAWBERRY", 0)
-        if (straw_qty >= 10 or (straw_qty > 0 and self.day >= 26)) and len(market_orders) < MAX_ORDERS:
+        if straw_qty > 0 and len(market_orders) < MAX_ORDERS:
             market_orders.append(["SELL", "STRAWBERRY", straw_qty])
             
         # Wheat: batch sell in blocks of 60-90 units into town-depleted high prices, or early game cash flow
@@ -472,7 +472,9 @@ class AuraFarmV3:
         unbuilt_pen_slots = []
         
         mature_crops = []
+        mature_strawberries = []
         unwatered_crops = []
+        fresh_unwatered_plants = []
         weeds = []
         empty_crop_slots = []
         
@@ -525,18 +527,21 @@ class AuraFarmV3:
                                 age = self.day - tile.get("planted_day", 0)
                                 if not tile.get("watered_today", False):
                                     unwatered_crops.append(pos)
+                                    if tile.get("planted_day", -1) == self.day:
+                                        fresh_unwatered_plants.append(pos)
                                 if age >= cdata.get("first_yield_day", 99) and tile.get("yield_units", 0) > 0:
                                     mature_crops.append(pos)
+                                    if crop_name == "STRAWBERRY":
+                                        mature_strawberries.append(pos)
 
         # ----------------------------------------------------------------------
         # C. WORKFORCE ROLE ALLOCATION
         # ----------------------------------------------------------------------
-        # Determine number of dedicated caretakers based on live animals
-        # 1-4 animals: 2 caretakers; 5-8 animals: 3 caretakers; 9+ animals: 4-5 caretakers
+        # V4: keep livestock covered without permanently reserving too many hands.
+        # The real ladder games showed premium-crop throughput collapsing when
+        # four hands were locked into caretaker duty.
         num_caretakers = 2
-        if total_live_animals >= 9 or len(empty_pens_with_structure) >= 4:
-            num_caretakers = 4
-        elif total_live_animals >= 5:
+        if total_live_animals >= 9 or len(empty_pens_with_structure) >= 6:
             num_caretakers = 3
         num_caretakers = min(num_caretakers, num_units)
         
@@ -676,21 +681,28 @@ class AuraFarmV3:
                             assigned_targets.add(target)
 
             # 3. Crop Harvesters & Field Workers (or idle Caretakers)
-            # A. Weeds (top crop priority)
-            if not target and weeds:
-                valid_weeds = [w for w in weeds if w not in assigned_targets]
-                if valid_weeds:
-                    target = min(valid_weeds, key=lambda p: manhattan(u_pos, p))
+            # A. Freshly planted crops must be watered before the day refresh.
+            if not target and fresh_unwatered_plants:
+                valid_fresh = [p for p in fresh_unwatered_plants if p not in assigned_targets]
+                if valid_fresh:
+                    target = min(valid_fresh, key=lambda p: manhattan(u_pos, p))
                     assigned_targets.add(target)
-                    
-            # B. Mature Crop Harvest
+
+            # B. Premium strawberry harvests.
+            if not target and mature_strawberries:
+                valid_straw = [c for c in mature_strawberries if c not in assigned_targets]
+                if valid_straw:
+                    target = min(valid_straw, key=lambda p: manhattan(u_pos, p))
+                    assigned_targets.add(target)
+
+            # C. Other mature crop harvests.
             if not target and mature_crops:
                 valid_mature = [c for c in mature_crops if c not in assigned_targets]
                 if valid_mature:
                     target = min(valid_mature, key=lambda p: manhattan(u_pos, p))
                     assigned_targets.add(target)
-                    
-            # C. Watering Unwatered Crops
+
+            # D. Watering Unwatered Crops
             if not target and unwatered_crops:
                 valid_water = [c for c in unwatered_crops if c not in assigned_targets]
                 if valid_water:
