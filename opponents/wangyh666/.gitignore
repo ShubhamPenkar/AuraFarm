@@ -1,0 +1,60 @@
+# virtualenv and caches
+.venv/
+__pycache__/
+*.pyc
+
+# replay data (hundreds of MB, re-downloadable with the Kaggle CLI).
+# NOTE: use the glob — earlier only replays/ was listed, so later-created
+# dirs (replays_v21/, replays_v23/, replays_v24/, replays_v24r/) slipped into
+# commits via `git add -A` and bloated the repo by ~400 MB.
+replays*/
+replays/
+replays_all/
+loss_replays/
+
+# third-party reference notebooks and scratch extraction
+# (public Kaggle notebooks; see README "Reference material" for links)
+kernels/
+tmp_2945/
+
+# build artefact — rebuild with `tar -czf submission.tar.gz main.py`
+submission.tar.gz
+
+# locally extracted top-agent opponents for tournament testing (NOT for release)
+opponents/
+tournament_results/
+
+# local experiment variants (kept on disk, never released)
+experiments/
+
+# subagent scratch space
+.scratch_ed/
+
+# transient logs
+analyze_err.log
+tmp_extract/
+episode-*-agent-*-logs.json
+
+# reverse-engineering derived artifacts (regenerable from replays/, which is also ignored)
+reverse/replays/
+reverse/adv_tape/
+reverse/*.jsonl
+reverse/routes_*.json
+
+# scratch from subagent runs
+tmp_ab/
+
+# 2026-09-27: the remaining scratch dirs that `git add -A` was about to sweep in.
+# tmp_replays is the replay cache and alone is ~390 MB; tmp_analysis holds generated
+# JSON (regenerate with scripts/data_curation.py); opponents_ladder is the frozen
+# prefix-ablation panel from scripts/build_ladder.py.
+tmp_replays/
+tmp_v39/
+tmp_forum/
+tmp_analysis/
+tmp_analysis_run.log
+opponents_ladder/
+
+# 公开数据集下载（可重新下载；见 insights/ 与 scripts/extract_plant_choices.py）
+data/
+dataset-metadata.json

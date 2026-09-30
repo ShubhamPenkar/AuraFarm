@@ -1,0 +1,6300 @@
+{
+  "final_score": 155380.0,
+  "revenue_by_commodity": {
+    "WHEAT": 171123.0,
+    "FERTILIZER": 20873.0,
+    "WOOL": 19974.0,
+    "GOOSE": 0.0,
+    "COW": 0.0,
+    "SHEEP": 0.0,
+    "MELON": 2712.0,
+    "EGG": 7971.0,
+    "MILK": 8637.0,
+    "STRAWBERRY": 26769.0,
+    "CARROT": 1672.0
+  },
+  "qty_sold_by_commodity": {
+    "WHEAT": 3824,
+    "FERTILIZER": 303,
+    "WOOL": 86,
+    "GOOSE": 2,
+    "COW": 1,
+    "SHEEP": 2,
+    "MELON": 12,
+    "EGG": 121,
+    "MILK": 100,
+    "STRAWBERRY": 115,
+    "CARROT": 46
+  },
+  "sales_events": [
+    {
+      "step": 48,
+      "day": 2,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 4,
+      "unit_price": 29,
+      "revenue": 116,
+      "pre_inv": 9986,
+      "post_inv": 9985,
+      "unlocked_shops": []
+    },
+    {
+      "step": 48,
+      "day": 2,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 99,
+      "revenue": 99,
+      "pre_inv": 10003,
+      "post_inv": 10004,
+      "unlocked_shops": []
+    },
+    {
+      "step": 49,
+      "day": 2,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 29,
+      "revenue": 58,
+      "pre_inv": 9985,
+      "post_inv": 9987,
+      "unlocked_shops": []
+    },
+    {
+      "step": 73,
+      "day": 3,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 1,
+      "unit_price": 29,
+      "revenue": 29,
+      "pre_inv": 9985,
+      "post_inv": 9986,
+      "unlocked_shops": [
+        "BAKERY"
+      ]
+    },
+    {
+      "step": 79,
+      "day": 3,
+      "hour": 7,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 29,
+      "revenue": 58,
+      "pre_inv": 9985,
+      "post_inv": 9987,
+      "unlocked_shops": [
+        "BAKERY"
+      ]
+    },
+    {
+      "step": 96,
+      "day": 4,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 5,
+      "unit_price": 29,
+      "revenue": 145,
+      "pre_inv": 9984,
+      "post_inv": 9982,
+      "unlocked_shops": [
+        "BAKERY"
+      ]
+    },
+    {
+      "step": 96,
+      "day": 4,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 98,
+      "revenue": 98,
+      "pre_inv": 10012,
+      "post_inv": 10013,
+      "unlocked_shops": [
+        "BAKERY"
+      ]
+    },
+    {
+      "step": 99,
+      "day": 4,
+      "hour": 3,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 29,
+      "revenue": 58,
+      "pre_inv": 9982,
+      "post_inv": 9984,
+      "unlocked_shops": [
+        "BAKERY"
+      ]
+    },
+    {
+      "step": 120,
+      "day": 5,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 96,
+      "revenue": 96,
+      "pre_inv": 10018,
+      "post_inv": 10019,
+      "unlocked_shops": [
+        "BAKERY"
+      ]
+    },
+    {
+      "step": 121,
+      "day": 5,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 4,
+      "unit_price": 30,
+      "revenue": 120,
+      "pre_inv": 9971,
+      "post_inv": 9973,
+      "unlocked_shops": [
+        "BAKERY"
+      ]
+    },
+    {
+      "step": 144,
+      "day": 6,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 2,
+      "unit_price": 95,
+      "revenue": 190,
+      "pre_inv": 10023,
+      "post_inv": 10025,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 152,
+      "day": 6,
+      "hour": 8,
+      "commodity": "WOOL",
+      "quantity": 2,
+      "unit_price": 199,
+      "revenue": 398,
+      "pre_inv": 10003,
+      "post_inv": 10005,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 152,
+      "day": 6,
+      "hour": 8,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 95,
+      "revenue": 95,
+      "pre_inv": 10024,
+      "post_inv": 10025,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 152,
+      "day": 6,
+      "hour": 8,
+      "commodity": "GOOSE",
+      "quantity": 1,
+      "unit_price": 0,
+      "revenue": 0,
+      "pre_inv": 0,
+      "post_inv": 0,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 163,
+      "day": 6,
+      "hour": 19,
+      "commodity": "WHEAT",
+      "quantity": 9,
+      "unit_price": 32,
+      "revenue": 288,
+      "pre_inv": 9947,
+      "post_inv": 9956,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 168,
+      "day": 7,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 32,
+      "revenue": 64,
+      "pre_inv": 9954,
+      "post_inv": 9951,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 168,
+      "day": 7,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 94,
+      "revenue": 94,
+      "pre_inv": 10030,
+      "post_inv": 10031,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 175,
+      "day": 7,
+      "hour": 7,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 93,
+      "revenue": 93,
+      "pre_inv": 10033,
+      "post_inv": 10035,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 177,
+      "day": 7,
+      "hour": 9,
+      "commodity": "COW",
+      "quantity": 1,
+      "unit_price": 0,
+      "revenue": 0,
+      "pre_inv": 0,
+      "post_inv": 0,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 181,
+      "day": 7,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 1,
+      "unit_price": 32,
+      "revenue": 32,
+      "pre_inv": 9945,
+      "post_inv": 9945,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 192,
+      "day": 8,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 92,
+      "revenue": 92,
+      "pre_inv": 10038,
+      "post_inv": 10039,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 197,
+      "day": 8,
+      "hour": 5,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 92,
+      "revenue": 92,
+      "pre_inv": 10038,
+      "post_inv": 10041,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 197,
+      "day": 8,
+      "hour": 5,
+      "commodity": "SHEEP",
+      "quantity": 1,
+      "unit_price": 0,
+      "revenue": 0,
+      "pre_inv": 0,
+      "post_inv": 0,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 207,
+      "day": 8,
+      "hour": 15,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 34,
+      "revenue": 68,
+      "pre_inv": 9911,
+      "post_inv": 9913,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 211,
+      "day": 8,
+      "hour": 19,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 34,
+      "revenue": 68,
+      "pre_inv": 9911,
+      "post_inv": 9913,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 216,
+      "day": 9,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 34,
+      "revenue": 68,
+      "pre_inv": 9911,
+      "post_inv": 9907,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 216,
+      "day": 9,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 2,
+      "unit_price": 91,
+      "revenue": 182,
+      "pre_inv": 10047,
+      "post_inv": 10049,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 231,
+      "day": 9,
+      "hour": 15,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 36,
+      "revenue": 72,
+      "pre_inv": 9880,
+      "post_inv": 9882,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 235,
+      "day": 9,
+      "hour": 19,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 36,
+      "revenue": 72,
+      "pre_inv": 9879,
+      "post_inv": 9881,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 242,
+      "day": 10,
+      "hour": 2,
+      "commodity": "FERTILIZER",
+      "quantity": 3,
+      "unit_price": 88,
+      "revenue": 264,
+      "pre_inv": 10058,
+      "post_inv": 10061,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 250,
+      "day": 10,
+      "hour": 10,
+      "commodity": "FERTILIZER",
+      "quantity": 5,
+      "unit_price": 89,
+      "revenue": 445,
+      "pre_inv": 10056,
+      "post_inv": 10061,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 252,
+      "day": 10,
+      "hour": 12,
+      "commodity": "SHEEP",
+      "quantity": 1,
+      "unit_price": 0,
+      "revenue": 0,
+      "pre_inv": 0,
+      "post_inv": 0,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 253,
+      "day": 10,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 1,
+      "unit_price": 38,
+      "revenue": 38,
+      "pre_inv": 9835,
+      "post_inv": 9835,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 253,
+      "day": 10,
+      "hour": 13,
+      "commodity": "GOOSE",
+      "quantity": 1,
+      "unit_price": 0,
+      "revenue": 0,
+      "pre_inv": 0,
+      "post_inv": 0,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 255,
+      "day": 10,
+      "hour": 15,
+      "commodity": "WHEAT",
+      "quantity": 1,
+      "unit_price": 38,
+      "revenue": 38,
+      "pre_inv": 9830,
+      "post_inv": 9830,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 257,
+      "day": 10,
+      "hour": 17,
+      "commodity": "WHEAT",
+      "quantity": 3,
+      "unit_price": 38,
+      "revenue": 114,
+      "pre_inv": 9822,
+      "post_inv": 9825,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 259,
+      "day": 10,
+      "hour": 19,
+      "commodity": "WHEAT",
+      "quantity": 3,
+      "unit_price": 38,
+      "revenue": 114,
+      "pre_inv": 9825,
+      "post_inv": 9828,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 264,
+      "day": 11,
+      "hour": 0,
+      "commodity": "MELON",
+      "quantity": 12,
+      "unit_price": 226,
+      "revenue": 2712,
+      "pre_inv": 10049,
+      "post_inv": 10060,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 264,
+      "day": 11,
+      "hour": 0,
+      "commodity": "EGG",
+      "quantity": 7,
+      "unit_price": 56,
+      "revenue": 392,
+      "pre_inv": 9899,
+      "post_inv": 9902,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 264,
+      "day": 11,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 13,
+      "unit_price": 88,
+      "revenue": 1144,
+      "pre_inv": 10061,
+      "post_inv": 10074,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 279,
+      "day": 11,
+      "hour": 15,
+      "commodity": "WHEAT",
+      "quantity": 9,
+      "unit_price": 39,
+      "revenue": 351,
+      "pre_inv": 9791,
+      "post_inv": 9800,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 283,
+      "day": 11,
+      "hour": 19,
+      "commodity": "WHEAT",
+      "quantity": 9,
+      "unit_price": 39,
+      "revenue": 351,
+      "pre_inv": 9797,
+      "post_inv": 9806,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 288,
+      "day": 12,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 16,
+      "unit_price": 85,
+      "revenue": 1360,
+      "pre_inv": 10074,
+      "post_inv": 10090,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 297,
+      "day": 12,
+      "hour": 9,
+      "commodity": "WHEAT",
+      "quantity": 48,
+      "unit_price": 41,
+      "revenue": 1968,
+      "pre_inv": 9745,
+      "post_inv": 9793,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 301,
+      "day": 12,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 48,
+      "unit_price": 41,
+      "revenue": 1968,
+      "pre_inv": 9742,
+      "post_inv": 9790,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 305,
+      "day": 12,
+      "hour": 17,
+      "commodity": "WHEAT",
+      "quantity": 48,
+      "unit_price": 41,
+      "revenue": 1968,
+      "pre_inv": 9739,
+      "post_inv": 9787,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 306,
+      "day": 12,
+      "hour": 18,
+      "commodity": "WHEAT",
+      "quantity": 9,
+      "unit_price": 40,
+      "revenue": 360,
+      "pre_inv": 9787,
+      "post_inv": 9796,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 307,
+      "day": 12,
+      "hour": 19,
+      "commodity": "WHEAT",
+      "quantity": 9,
+      "unit_price": 39,
+      "revenue": 351,
+      "pre_inv": 9796,
+      "post_inv": 9805,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 312,
+      "day": 13,
+      "hour": 0,
+      "commodity": "EGG",
+      "quantity": 6,
+      "unit_price": 58,
+      "revenue": 348,
+      "pre_inv": 9868,
+      "post_inv": 9870,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 312,
+      "day": 13,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 16,
+      "unit_price": 82,
+      "revenue": 1312,
+      "pre_inv": 10090,
+      "post_inv": 10106,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 313,
+      "day": 13,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 4,
+      "unit_price": 39,
+      "revenue": 156,
+      "pre_inv": 9798,
+      "post_inv": 9798,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 313,
+      "day": 13,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 79,
+      "revenue": 79,
+      "pre_inv": 10106,
+      "post_inv": 10107,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 317,
+      "day": 13,
+      "hour": 5,
+      "commodity": "WHEAT",
+      "quantity": 60,
+      "unit_price": 41,
+      "revenue": 2460,
+      "pre_inv": 9735,
+      "post_inv": 9795,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 325,
+      "day": 13,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 63,
+      "unit_price": 42,
+      "revenue": 2646,
+      "pre_inv": 9726,
+      "post_inv": 9789,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 328,
+      "day": 13,
+      "hour": 16,
+      "commodity": "WHEAT",
+      "quantity": 72,
+      "unit_price": 42,
+      "revenue": 3024,
+      "pre_inv": 9726,
+      "post_inv": 9795,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 331,
+      "day": 13,
+      "hour": 19,
+      "commodity": "WHEAT",
+      "quantity": 1,
+      "unit_price": 39,
+      "revenue": 39,
+      "pre_inv": 9795,
+      "post_inv": 9796,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 336,
+      "day": 14,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 3,
+      "unit_price": 39,
+      "revenue": 117,
+      "pre_inv": 9793,
+      "post_inv": 9789,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 336,
+      "day": 14,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 8,
+      "unit_price": 79,
+      "revenue": 632,
+      "pre_inv": 10107,
+      "post_inv": 10115,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 339,
+      "day": 14,
+      "hour": 3,
+      "commodity": "WHEAT",
+      "quantity": 5,
+      "unit_price": 40,
+      "revenue": 200,
+      "pre_inv": 9789,
+      "post_inv": 9789,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 343,
+      "day": 14,
+      "hour": 7,
+      "commodity": "WHEAT",
+      "quantity": 3,
+      "unit_price": 40,
+      "revenue": 120,
+      "pre_inv": 9786,
+      "post_inv": 9785,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 344,
+      "day": 14,
+      "hour": 8,
+      "commodity": "WHEAT",
+      "quantity": 1,
+      "unit_price": 40,
+      "revenue": 40,
+      "pre_inv": 9785,
+      "post_inv": 9782,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 344,
+      "day": 14,
+      "hour": 8,
+      "commodity": "WOOL",
+      "quantity": 3,
+      "unit_price": 217,
+      "revenue": 651,
+      "pre_inv": 9994,
+      "post_inv": 9995,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 349,
+      "day": 14,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 59,
+      "unit_price": 42,
+      "revenue": 2478,
+      "pre_inv": 9720,
+      "post_inv": 9779,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 353,
+      "day": 14,
+      "hour": 17,
+      "commodity": "WHEAT",
+      "quantity": 59,
+      "unit_price": 42,
+      "revenue": 2478,
+      "pre_inv": 9717,
+      "post_inv": 9776,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 357,
+      "day": 14,
+      "hour": 21,
+      "commodity": "WHEAT",
+      "quantity": 71,
+      "unit_price": 42,
+      "revenue": 2982,
+      "pre_inv": 9702,
+      "post_inv": 9773,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 358,
+      "day": 14,
+      "hour": 22,
+      "commodity": "FERTILIZER",
+      "quantity": 7,
+      "unit_price": 77,
+      "revenue": 539,
+      "pre_inv": 10113,
+      "post_inv": 10120,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "step": 360,
+      "day": 15,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 4,
+      "unit_price": 40,
+      "revenue": 160,
+      "pre_inv": 9773,
+      "post_inv": 9768,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 360,
+      "day": 15,
+      "hour": 0,
+      "commodity": "MILK",
+      "quantity": 6,
+      "unit_price": 97,
+      "revenue": 582,
+      "pre_inv": 10030,
+      "post_inv": 10035,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 360,
+      "day": 15,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 12,
+      "unit_price": 75,
+      "revenue": 900,
+      "pre_inv": 10124,
+      "post_inv": 10136,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 362,
+      "day": 15,
+      "hour": 2,
+      "commodity": "WHEAT",
+      "quantity": 4,
+      "unit_price": 40,
+      "revenue": 160,
+      "pre_inv": 9768,
+      "post_inv": 9768,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 362,
+      "day": 15,
+      "hour": 2,
+      "commodity": "EGG",
+      "quantity": 4,
+      "unit_price": 60,
+      "revenue": 240,
+      "pre_inv": 9841,
+      "post_inv": 9845,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 362,
+      "day": 15,
+      "hour": 2,
+      "commodity": "FERTILIZER",
+      "quantity": 4,
+      "unit_price": 74,
+      "revenue": 296,
+      "pre_inv": 10132,
+      "post_inv": 10133,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 365,
+      "day": 15,
+      "hour": 5,
+      "commodity": "WHEAT",
+      "quantity": 77,
+      "unit_price": 43,
+      "revenue": 3311,
+      "pre_inv": 9687,
+      "post_inv": 9764,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 366,
+      "day": 15,
+      "hour": 6,
+      "commodity": "WHEAT",
+      "quantity": 5,
+      "unit_price": 40,
+      "revenue": 200,
+      "pre_inv": 9764,
+      "post_inv": 9769,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 369,
+      "day": 15,
+      "hour": 9,
+      "commodity": "WHEAT",
+      "quantity": 89,
+      "unit_price": 43,
+      "revenue": 3827,
+      "pre_inv": 9676,
+      "post_inv": 9765,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 376,
+      "day": 15,
+      "hour": 16,
+      "commodity": "WHEAT",
+      "quantity": 89,
+      "unit_price": 43,
+      "revenue": 3827,
+      "pre_inv": 9672,
+      "post_inv": 9757,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 381,
+      "day": 15,
+      "hour": 21,
+      "commodity": "WHEAT",
+      "quantity": 89,
+      "unit_price": 43,
+      "revenue": 3827,
+      "pre_inv": 9664,
+      "post_inv": 9753,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 384,
+      "day": 16,
+      "hour": 0,
+      "commodity": "EGG",
+      "quantity": 8,
+      "unit_price": 61,
+      "revenue": 488,
+      "pre_inv": 9825,
+      "post_inv": 9828,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 385,
+      "day": 16,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 11,
+      "unit_price": 41,
+      "revenue": 451,
+      "pre_inv": 9748,
+      "post_inv": 9748,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 385,
+      "day": 16,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 14,
+      "unit_price": 229,
+      "revenue": 3206,
+      "pre_inv": 9973,
+      "post_inv": 9987,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 385,
+      "day": 16,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 9,
+      "unit_price": 73,
+      "revenue": 657,
+      "pre_inv": 10133,
+      "post_inv": 10141,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 389,
+      "day": 16,
+      "hour": 5,
+      "commodity": "WHEAT",
+      "quantity": 74,
+      "unit_price": 43,
+      "revenue": 3182,
+      "pre_inv": 9670,
+      "post_inv": 9744,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 393,
+      "day": 16,
+      "hour": 9,
+      "commodity": "MILK",
+      "quantity": 6,
+      "unit_price": 57,
+      "revenue": 342,
+      "pre_inv": 10049,
+      "post_inv": 10055,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 397,
+      "day": 16,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 80,
+      "unit_price": 44,
+      "revenue": 3520,
+      "pre_inv": 9656,
+      "post_inv": 9736,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 397,
+      "day": 16,
+      "hour": 13,
+      "commodity": "FERTILIZER",
+      "quantity": 2,
+      "unit_price": 72,
+      "revenue": 144,
+      "pre_inv": 10141,
+      "post_inv": 10143,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 398,
+      "day": 16,
+      "hour": 14,
+      "commodity": "WHEAT",
+      "quantity": 6,
+      "unit_price": 41,
+      "revenue": 246,
+      "pre_inv": 9736,
+      "post_inv": 9742,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 405,
+      "day": 16,
+      "hour": 21,
+      "commodity": "WHEAT",
+      "quantity": 80,
+      "unit_price": 44,
+      "revenue": 3520,
+      "pre_inv": 9654,
+      "post_inv": 9734,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 408,
+      "day": 17,
+      "hour": 0,
+      "commodity": "MILK",
+      "quantity": 3,
+      "unit_price": 45,
+      "revenue": 135,
+      "pre_inv": 10055,
+      "post_inv": 10057,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 409,
+      "day": 17,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 10,
+      "unit_price": 41,
+      "revenue": 410,
+      "pre_inv": 9729,
+      "post_inv": 9729,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 409,
+      "day": 17,
+      "hour": 1,
+      "commodity": "EGG",
+      "quantity": 1,
+      "unit_price": 62,
+      "revenue": 62,
+      "pre_inv": 9809,
+      "post_inv": 9810,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 409,
+      "day": 17,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 15,
+      "unit_price": 71,
+      "revenue": 1065,
+      "pre_inv": 10143,
+      "post_inv": 10154,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 410,
+      "day": 17,
+      "hour": 2,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 41,
+      "revenue": 82,
+      "pre_inv": 9729,
+      "post_inv": 9729,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 410,
+      "day": 17,
+      "hour": 2,
+      "commodity": "EGG",
+      "quantity": 4,
+      "unit_price": 61,
+      "revenue": 244,
+      "pre_inv": 9810,
+      "post_inv": 9814,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 412,
+      "day": 17,
+      "hour": 4,
+      "commodity": "WHEAT",
+      "quantity": 7,
+      "unit_price": 41,
+      "revenue": 287,
+      "pre_inv": 9729,
+      "post_inv": 9732,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 417,
+      "day": 17,
+      "hour": 9,
+      "commodity": "WHEAT",
+      "quantity": 89,
+      "unit_price": 44,
+      "revenue": 3916,
+      "pre_inv": 9639,
+      "post_inv": 9728,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 420,
+      "day": 17,
+      "hour": 12,
+      "commodity": "WHEAT",
+      "quantity": 89,
+      "unit_price": 44,
+      "revenue": 3916,
+      "pre_inv": 9639,
+      "post_inv": 9724,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 425,
+      "day": 17,
+      "hour": 17,
+      "commodity": "WHEAT",
+      "quantity": 89,
+      "unit_price": 44,
+      "revenue": 3916,
+      "pre_inv": 9631,
+      "post_inv": 9720,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "step": 432,
+      "day": 18,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 42,
+      "revenue": 84,
+      "pre_inv": 9716,
+      "post_inv": 9710,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 432,
+      "day": 18,
+      "hour": 0,
+      "commodity": "MILK",
+      "quantity": 9,
+      "unit_price": 40,
+      "revenue": 360,
+      "pre_inv": 10057,
+      "post_inv": 10064,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 433,
+      "day": 18,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 9,
+      "unit_price": 42,
+      "revenue": 378,
+      "pre_inv": 9710,
+      "post_inv": 9710,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 433,
+      "day": 18,
+      "hour": 1,
+      "commodity": "EGG",
+      "quantity": 4,
+      "unit_price": 63,
+      "revenue": 252,
+      "pre_inv": 9792,
+      "post_inv": 9796,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 433,
+      "day": 18,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 2,
+      "unit_price": 229,
+      "revenue": 458,
+      "pre_inv": 9973,
+      "post_inv": 9975,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 433,
+      "day": 18,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 11,
+      "unit_price": 69,
+      "revenue": 759,
+      "pre_inv": 10154,
+      "post_inv": 10163,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 436,
+      "day": 18,
+      "hour": 4,
+      "commodity": "WHEAT",
+      "quantity": 71,
+      "unit_price": 44,
+      "revenue": 3124,
+      "pre_inv": 9639,
+      "post_inv": 9705,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 438,
+      "day": 18,
+      "hour": 6,
+      "commodity": "FERTILIZER",
+      "quantity": 2,
+      "unit_price": 67,
+      "revenue": 134,
+      "pre_inv": 10163,
+      "post_inv": 10165,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 441,
+      "day": 18,
+      "hour": 9,
+      "commodity": "WHEAT",
+      "quantity": 73,
+      "unit_price": 44,
+      "revenue": 3212,
+      "pre_inv": 9627,
+      "post_inv": 9700,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 442,
+      "day": 18,
+      "hour": 10,
+      "commodity": "WHEAT",
+      "quantity": 7,
+      "unit_price": 42,
+      "revenue": 294,
+      "pre_inv": 9700,
+      "post_inv": 9707,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 445,
+      "day": 18,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 80,
+      "unit_price": 44,
+      "revenue": 3520,
+      "pre_inv": 9622,
+      "post_inv": 9702,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 449,
+      "day": 18,
+      "hour": 17,
+      "commodity": "WHEAT",
+      "quantity": 82,
+      "unit_price": 45,
+      "revenue": 3690,
+      "pre_inv": 9615,
+      "post_inv": 9697,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 451,
+      "day": 18,
+      "hour": 19,
+      "commodity": "WHEAT",
+      "quantity": 3,
+      "unit_price": 42,
+      "revenue": 126,
+      "pre_inv": 9697,
+      "post_inv": 9699,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 454,
+      "day": 18,
+      "hour": 22,
+      "commodity": "FERTILIZER",
+      "quantity": 6,
+      "unit_price": 67,
+      "revenue": 402,
+      "pre_inv": 10165,
+      "post_inv": 10171,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 456,
+      "day": 19,
+      "hour": 0,
+      "commodity": "MILK",
+      "quantity": 6,
+      "unit_price": 30,
+      "revenue": 180,
+      "pre_inv": 10062,
+      "post_inv": 10066,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 457,
+      "day": 19,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 5,
+      "unit_price": 43,
+      "revenue": 215,
+      "pre_inv": 9688,
+      "post_inv": 9688,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 457,
+      "day": 19,
+      "hour": 1,
+      "commodity": "STRAWBERRY",
+      "quantity": 8,
+      "unit_price": 218,
+      "revenue": 1744,
+      "pre_inv": 9864,
+      "post_inv": 9872,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 457,
+      "day": 19,
+      "hour": 1,
+      "commodity": "EGG",
+      "quantity": 7,
+      "unit_price": 64,
+      "revenue": 448,
+      "pre_inv": 9773,
+      "post_inv": 9780,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 457,
+      "day": 19,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 8,
+      "unit_price": 230,
+      "revenue": 1840,
+      "pre_inv": 9966,
+      "post_inv": 9974,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 457,
+      "day": 19,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 4,
+      "unit_price": 66,
+      "revenue": 264,
+      "pre_inv": 10171,
+      "post_inv": 10175,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 458,
+      "day": 19,
+      "hour": 2,
+      "commodity": "WHEAT",
+      "quantity": 6,
+      "unit_price": 43,
+      "revenue": 258,
+      "pre_inv": 9688,
+      "post_inv": 9688,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 458,
+      "day": 19,
+      "hour": 2,
+      "commodity": "EGG",
+      "quantity": 3,
+      "unit_price": 63,
+      "revenue": 189,
+      "pre_inv": 9780,
+      "post_inv": 9783,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 458,
+      "day": 19,
+      "hour": 2,
+      "commodity": "FERTILIZER",
+      "quantity": 3,
+      "unit_price": 65,
+      "revenue": 195,
+      "pre_inv": 10175,
+      "post_inv": 10175,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 461,
+      "day": 19,
+      "hour": 5,
+      "commodity": "WHEAT",
+      "quantity": 81,
+      "unit_price": 45,
+      "revenue": 3645,
+      "pre_inv": 9602,
+      "post_inv": 9683,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 462,
+      "day": 19,
+      "hour": 6,
+      "commodity": "WHEAT",
+      "quantity": 3,
+      "unit_price": 43,
+      "revenue": 129,
+      "pre_inv": 9683,
+      "post_inv": 9686,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 466,
+      "day": 19,
+      "hour": 10,
+      "commodity": "WHEAT",
+      "quantity": 3,
+      "unit_price": 43,
+      "revenue": 129,
+      "pre_inv": 9681,
+      "post_inv": 9684,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 469,
+      "day": 19,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 84,
+      "unit_price": 45,
+      "revenue": 3780,
+      "pre_inv": 9595,
+      "post_inv": 9679,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 480,
+      "day": 20,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 1,
+      "unit_price": 43,
+      "revenue": 43,
+      "pre_inv": 9669,
+      "post_inv": 9663,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 480,
+      "day": 20,
+      "hour": 0,
+      "commodity": "MILK",
+      "quantity": 6,
+      "unit_price": 26,
+      "revenue": 156,
+      "pre_inv": 10064,
+      "post_inv": 10068,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 481,
+      "day": 20,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 8,
+      "unit_price": 43,
+      "revenue": 344,
+      "pre_inv": 9663,
+      "post_inv": 9663,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 481,
+      "day": 20,
+      "hour": 1,
+      "commodity": "STRAWBERRY",
+      "quantity": 6,
+      "unit_price": 220,
+      "revenue": 1320,
+      "pre_inv": 9857,
+      "post_inv": 9863,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 481,
+      "day": 20,
+      "hour": 1,
+      "commodity": "EGG",
+      "quantity": 7,
+      "unit_price": 65,
+      "revenue": 455,
+      "pre_inv": 9758,
+      "post_inv": 9765,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 481,
+      "day": 20,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 4,
+      "unit_price": 232,
+      "revenue": 928,
+      "pre_inv": 9961,
+      "post_inv": 9965,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 481,
+      "day": 20,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 12,
+      "unit_price": 65,
+      "revenue": 780,
+      "pre_inv": 10175,
+      "post_inv": 10177,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 482,
+      "day": 20,
+      "hour": 2,
+      "commodity": "WHEAT",
+      "quantity": 6,
+      "unit_price": 43,
+      "revenue": 258,
+      "pre_inv": 9663,
+      "post_inv": 9663,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 482,
+      "day": 20,
+      "hour": 2,
+      "commodity": "EGG",
+      "quantity": 3,
+      "unit_price": 64,
+      "revenue": 192,
+      "pre_inv": 9765,
+      "post_inv": 9768,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 482,
+      "day": 20,
+      "hour": 2,
+      "commodity": "FERTILIZER",
+      "quantity": 4,
+      "unit_price": 65,
+      "revenue": 260,
+      "pre_inv": 10177,
+      "post_inv": 10179,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 483,
+      "day": 20,
+      "hour": 3,
+      "commodity": "WHEAT",
+      "quantity": 6,
+      "unit_price": 43,
+      "revenue": 258,
+      "pre_inv": 9663,
+      "post_inv": 9669,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 488,
+      "day": 20,
+      "hour": 8,
+      "commodity": "WHEAT",
+      "quantity": 83,
+      "unit_price": 45,
+      "revenue": 3735,
+      "pre_inv": 9581,
+      "post_inv": 9659,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 493,
+      "day": 20,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 83,
+      "unit_price": 46,
+      "revenue": 3818,
+      "pre_inv": 9571,
+      "post_inv": 9654,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 497,
+      "day": 20,
+      "hour": 17,
+      "commodity": "WHEAT",
+      "quantity": 84,
+      "unit_price": 46,
+      "revenue": 3864,
+      "pre_inv": 9565,
+      "post_inv": 9649,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 499,
+      "day": 20,
+      "hour": 19,
+      "commodity": "WHEAT",
+      "quantity": 1,
+      "unit_price": 44,
+      "revenue": 44,
+      "pre_inv": 9649,
+      "post_inv": 9649,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 501,
+      "day": 20,
+      "hour": 21,
+      "commodity": "WHEAT",
+      "quantity": 88,
+      "unit_price": 46,
+      "revenue": 4048,
+      "pre_inv": 9556,
+      "post_inv": 9644,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 504,
+      "day": 21,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 5,
+      "unit_price": 44,
+      "revenue": 220,
+      "pre_inv": 9644,
+      "post_inv": 9637,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 504,
+      "day": 21,
+      "hour": 0,
+      "commodity": "MILK",
+      "quantity": 4,
+      "unit_price": 24,
+      "revenue": 96,
+      "pre_inv": 10065,
+      "post_inv": 10066,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 504,
+      "day": 21,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 13,
+      "unit_price": 64,
+      "revenue": 832,
+      "pre_inv": 10179,
+      "post_inv": 10192,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 505,
+      "day": 21,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 12,
+      "unit_price": 44,
+      "revenue": 528,
+      "pre_inv": 9637,
+      "post_inv": 9637,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 505,
+      "day": 21,
+      "hour": 1,
+      "commodity": "STRAWBERRY",
+      "quantity": 6,
+      "unit_price": 221,
+      "revenue": 1326,
+      "pre_inv": 9855,
+      "post_inv": 9861,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 505,
+      "day": 21,
+      "hour": 1,
+      "commodity": "EGG",
+      "quantity": 6,
+      "unit_price": 65,
+      "revenue": 390,
+      "pre_inv": 9743,
+      "post_inv": 9749,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 505,
+      "day": 21,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 8,
+      "unit_price": 233,
+      "revenue": 1864,
+      "pre_inv": 9952,
+      "post_inv": 9960,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 505,
+      "day": 21,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 3,
+      "unit_price": 62,
+      "revenue": 186,
+      "pre_inv": 10192,
+      "post_inv": 10192,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 506,
+      "day": 21,
+      "hour": 2,
+      "commodity": "WHEAT",
+      "quantity": 12,
+      "unit_price": 44,
+      "revenue": 528,
+      "pre_inv": 9637,
+      "post_inv": 9649,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 506,
+      "day": 21,
+      "hour": 2,
+      "commodity": "EGG",
+      "quantity": 3,
+      "unit_price": 65,
+      "revenue": 195,
+      "pre_inv": 9749,
+      "post_inv": 9752,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 511,
+      "day": 21,
+      "hour": 7,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 44,
+      "revenue": 88,
+      "pre_inv": 9643,
+      "post_inv": 9645,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 521,
+      "day": 21,
+      "hour": 17,
+      "commodity": "WHEAT",
+      "quantity": 90,
+      "unit_price": 47,
+      "revenue": 4230,
+      "pre_inv": 9537,
+      "post_inv": 9627,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 525,
+      "day": 21,
+      "hour": 21,
+      "commodity": "WHEAT",
+      "quantity": 90,
+      "unit_price": 47,
+      "revenue": 4230,
+      "pre_inv": 9531,
+      "post_inv": 9621,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 528,
+      "day": 22,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 44,
+      "revenue": 88,
+      "pre_inv": 9621,
+      "post_inv": 9614,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 528,
+      "day": 22,
+      "hour": 0,
+      "commodity": "STRAWBERRY",
+      "quantity": 13,
+      "unit_price": 219,
+      "revenue": 2847,
+      "pre_inv": 9860,
+      "post_inv": 9867,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 529,
+      "day": 22,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 9,
+      "unit_price": 45,
+      "revenue": 405,
+      "pre_inv": 9614,
+      "post_inv": 9614,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 529,
+      "day": 22,
+      "hour": 1,
+      "commodity": "EGG",
+      "quantity": 6,
+      "unit_price": 66,
+      "revenue": 396,
+      "pre_inv": 9727,
+      "post_inv": 9733,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 529,
+      "day": 22,
+      "hour": 1,
+      "commodity": "MILK",
+      "quantity": 6,
+      "unit_price": 49,
+      "revenue": 294,
+      "pre_inv": 10053,
+      "post_inv": 10059,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 529,
+      "day": 22,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 4,
+      "unit_price": 234,
+      "revenue": 936,
+      "pre_inv": 9947,
+      "post_inv": 9951,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 531,
+      "day": 22,
+      "hour": 3,
+      "commodity": "FERTILIZER",
+      "quantity": 18,
+      "unit_price": 64,
+      "revenue": 1152,
+      "pre_inv": 10180,
+      "post_inv": 10190,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 532,
+      "day": 22,
+      "hour": 4,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 62,
+      "revenue": 62,
+      "pre_inv": 10190,
+      "post_inv": 10191,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 533,
+      "day": 22,
+      "hour": 5,
+      "commodity": "MILK",
+      "quantity": 2,
+      "unit_price": 40,
+      "revenue": 80,
+      "pre_inv": 10057,
+      "post_inv": 10059,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 537,
+      "day": 22,
+      "hour": 9,
+      "commodity": "FERTILIZER",
+      "quantity": 8,
+      "unit_price": 62,
+      "revenue": 496,
+      "pre_inv": 10191,
+      "post_inv": 10199,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 541,
+      "day": 22,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 85,
+      "unit_price": 47,
+      "revenue": 3995,
+      "pre_inv": 9511,
+      "post_inv": 9596,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 542,
+      "day": 22,
+      "hour": 14,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 45,
+      "revenue": 90,
+      "pre_inv": 9596,
+      "post_inv": 9598,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 545,
+      "day": 22,
+      "hour": 17,
+      "commodity": "WHEAT",
+      "quantity": 84,
+      "unit_price": 47,
+      "revenue": 3948,
+      "pre_inv": 9508,
+      "post_inv": 9592,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 549,
+      "day": 22,
+      "hour": 21,
+      "commodity": "WHEAT",
+      "quantity": 90,
+      "unit_price": 47,
+      "revenue": 4230,
+      "pre_inv": 9496,
+      "post_inv": 9586,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 552,
+      "day": 23,
+      "hour": 0,
+      "commodity": "EGG",
+      "quantity": 8,
+      "unit_price": 67,
+      "revenue": 536,
+      "pre_inv": 9716,
+      "post_inv": 9719,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 552,
+      "day": 23,
+      "hour": 0,
+      "commodity": "MILK",
+      "quantity": 4,
+      "unit_price": 53,
+      "revenue": 212,
+      "pre_inv": 10051,
+      "post_inv": 10052,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 552,
+      "day": 23,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 15,
+      "unit_price": 60,
+      "revenue": 900,
+      "pre_inv": 10199,
+      "post_inv": 10214,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 553,
+      "day": 23,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 13,
+      "unit_price": 46,
+      "revenue": 598,
+      "pre_inv": 9579,
+      "post_inv": 9579,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 553,
+      "day": 23,
+      "hour": 1,
+      "commodity": "STRAWBERRY",
+      "quantity": 13,
+      "unit_price": 225,
+      "revenue": 2925,
+      "pre_inv": 9844,
+      "post_inv": 9857,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 553,
+      "day": 23,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 8,
+      "unit_price": 235,
+      "revenue": 1880,
+      "pre_inv": 9942,
+      "post_inv": 9950,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 554,
+      "day": 23,
+      "hour": 2,
+      "commodity": "FERTILIZER",
+      "quantity": 2,
+      "unit_price": 58,
+      "revenue": 116,
+      "pre_inv": 10212,
+      "post_inv": 10214,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 555,
+      "day": 23,
+      "hour": 3,
+      "commodity": "WHEAT",
+      "quantity": 4,
+      "unit_price": 46,
+      "revenue": 184,
+      "pre_inv": 9579,
+      "post_inv": 9579,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 555,
+      "day": 23,
+      "hour": 3,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 57,
+      "revenue": 57,
+      "pre_inv": 10214,
+      "post_inv": 10215,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 557,
+      "day": 23,
+      "hour": 5,
+      "commodity": "FERTILIZER",
+      "quantity": 6,
+      "unit_price": 58,
+      "revenue": 348,
+      "pre_inv": 10209,
+      "post_inv": 10209,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 561,
+      "day": 23,
+      "hour": 9,
+      "commodity": "WHEAT",
+      "quantity": 80,
+      "unit_price": 48,
+      "revenue": 3840,
+      "pre_inv": 9488,
+      "post_inv": 9568,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 565,
+      "day": 23,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 80,
+      "unit_price": 48,
+      "revenue": 3840,
+      "pre_inv": 9482,
+      "post_inv": 9562,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 566,
+      "day": 23,
+      "hour": 14,
+      "commodity": "WHEAT",
+      "quantity": 3,
+      "unit_price": 46,
+      "revenue": 138,
+      "pre_inv": 9562,
+      "post_inv": 9565,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 569,
+      "day": 23,
+      "hour": 17,
+      "commodity": "WHEAT",
+      "quantity": 83,
+      "unit_price": 48,
+      "revenue": 3984,
+      "pre_inv": 9476,
+      "post_inv": 9559,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 573,
+      "day": 23,
+      "hour": 21,
+      "commodity": "WHEAT",
+      "quantity": 87,
+      "unit_price": 48,
+      "revenue": 4176,
+      "pre_inv": 9470,
+      "post_inv": 9557,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 574,
+      "day": 23,
+      "hour": 22,
+      "commodity": "WHEAT",
+      "quantity": 9,
+      "unit_price": 46,
+      "revenue": 414,
+      "pre_inv": 9557,
+      "post_inv": 9566,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 576,
+      "day": 24,
+      "hour": 0,
+      "commodity": "MILK",
+      "quantity": 7,
+      "unit_price": 72,
+      "revenue": 504,
+      "pre_inv": 10042,
+      "post_inv": 10045,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 577,
+      "day": 24,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 46,
+      "revenue": 92,
+      "pre_inv": 9558,
+      "post_inv": 9558,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 577,
+      "day": 24,
+      "hour": 1,
+      "commodity": "STRAWBERRY",
+      "quantity": 21,
+      "unit_price": 229,
+      "revenue": 4809,
+      "pre_inv": 9833,
+      "post_inv": 9854,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 577,
+      "day": 24,
+      "hour": 1,
+      "commodity": "EGG",
+      "quantity": 10,
+      "unit_price": 68,
+      "revenue": 680,
+      "pre_inv": 9694,
+      "post_inv": 9704,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 577,
+      "day": 24,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 7,
+      "unit_price": 236,
+      "revenue": 1652,
+      "pre_inv": 9937,
+      "post_inv": 9944,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 577,
+      "day": 24,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 9,
+      "unit_price": 58,
+      "revenue": 522,
+      "pre_inv": 10209,
+      "post_inv": 10214,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 581,
+      "day": 24,
+      "hour": 5,
+      "commodity": "WHEAT",
+      "quantity": 20,
+      "unit_price": 46,
+      "revenue": 920,
+      "pre_inv": 9551,
+      "post_inv": 9571,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 583,
+      "day": 24,
+      "hour": 7,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 46,
+      "revenue": 92,
+      "pre_inv": 9571,
+      "post_inv": 9573,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 600,
+      "day": 25,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 1,
+      "unit_price": 46,
+      "revenue": 46,
+      "pre_inv": 9545,
+      "post_inv": 9537,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 600,
+      "day": 25,
+      "hour": 0,
+      "commodity": "STRAWBERRY",
+      "quantity": 7,
+      "unit_price": 231,
+      "revenue": 1617,
+      "pre_inv": 9824,
+      "post_inv": 9824,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 600,
+      "day": 25,
+      "hour": 0,
+      "commodity": "EGG",
+      "quantity": 10,
+      "unit_price": 69,
+      "revenue": 690,
+      "pre_inv": 9686,
+      "post_inv": 9691,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 600,
+      "day": 25,
+      "hour": 0,
+      "commodity": "MILK",
+      "quantity": 9,
+      "unit_price": 97,
+      "revenue": 873,
+      "pre_inv": 10030,
+      "post_inv": 10035,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 600,
+      "day": 25,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 9,
+      "unit_price": 59,
+      "revenue": 531,
+      "pre_inv": 10206,
+      "post_inv": 10215,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 601,
+      "day": 25,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 5,
+      "unit_price": 47,
+      "revenue": 235,
+      "pre_inv": 9537,
+      "post_inv": 9537,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 601,
+      "day": 25,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 3,
+      "unit_price": 235,
+      "revenue": 705,
+      "pre_inv": 9940,
+      "post_inv": 9943,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 601,
+      "day": 25,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 57,
+      "revenue": 57,
+      "pre_inv": 10215,
+      "post_inv": 10215,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 602,
+      "day": 25,
+      "hour": 2,
+      "commodity": "WHEAT",
+      "quantity": 4,
+      "unit_price": 47,
+      "revenue": 188,
+      "pre_inv": 9537,
+      "post_inv": 9537,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 602,
+      "day": 25,
+      "hour": 2,
+      "commodity": "WOOL",
+      "quantity": 1,
+      "unit_price": 235,
+      "revenue": 235,
+      "pre_inv": 9943,
+      "post_inv": 9944,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 602,
+      "day": 25,
+      "hour": 2,
+      "commodity": "FERTILIZER",
+      "quantity": 2,
+      "unit_price": 57,
+      "revenue": 114,
+      "pre_inv": 10215,
+      "post_inv": 10217,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 603,
+      "day": 25,
+      "hour": 3,
+      "commodity": "WHEAT",
+      "quantity": 1,
+      "unit_price": 47,
+      "revenue": 47,
+      "pre_inv": 9537,
+      "post_inv": 9537,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 603,
+      "day": 25,
+      "hour": 3,
+      "commodity": "FERTILIZER",
+      "quantity": 2,
+      "unit_price": 57,
+      "revenue": 114,
+      "pre_inv": 10217,
+      "post_inv": 10219,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 605,
+      "day": 25,
+      "hour": 5,
+      "commodity": "FERTILIZER",
+      "quantity": 8,
+      "unit_price": 58,
+      "revenue": 464,
+      "pre_inv": 10212,
+      "post_inv": 10213,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 609,
+      "day": 25,
+      "hour": 9,
+      "commodity": "WHEAT",
+      "quantity": 55,
+      "unit_price": 48,
+      "revenue": 2640,
+      "pre_inv": 9468,
+      "post_inv": 9523,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 610,
+      "day": 25,
+      "hour": 10,
+      "commodity": "WHEAT",
+      "quantity": 22,
+      "unit_price": 47,
+      "revenue": 1034,
+      "pre_inv": 9523,
+      "post_inv": 9545,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 611,
+      "day": 25,
+      "hour": 11,
+      "commodity": "WHEAT",
+      "quantity": 5,
+      "unit_price": 46,
+      "revenue": 230,
+      "pre_inv": 9545,
+      "post_inv": 9550,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 613,
+      "day": 25,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 8,
+      "unit_price": 46,
+      "revenue": 368,
+      "pre_inv": 9543,
+      "post_inv": 9551,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 621,
+      "day": 25,
+      "hour": 21,
+      "commodity": "WHEAT",
+      "quantity": 79,
+      "unit_price": 48,
+      "revenue": 3792,
+      "pre_inv": 9458,
+      "post_inv": 9537,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 621,
+      "day": 25,
+      "hour": 21,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 57,
+      "revenue": 57,
+      "pre_inv": 10213,
+      "post_inv": 10214,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 624,
+      "day": 26,
+      "hour": 0,
+      "commodity": "EGG",
+      "quantity": 4,
+      "unit_price": 70,
+      "revenue": 280,
+      "pre_inv": 9671,
+      "post_inv": 9670,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 624,
+      "day": 26,
+      "hour": 0,
+      "commodity": "MILK",
+      "quantity": 9,
+      "unit_price": 118,
+      "revenue": 1062,
+      "pre_inv": 10020,
+      "post_inv": 10025,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 624,
+      "day": 26,
+      "hour": 0,
+      "commodity": "FERTILIZER",
+      "quantity": 4,
+      "unit_price": 57,
+      "revenue": 228,
+      "pre_inv": 10214,
+      "post_inv": 10218,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 625,
+      "day": 26,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 9,
+      "unit_price": 47,
+      "revenue": 423,
+      "pre_inv": 9529,
+      "post_inv": 9529,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 625,
+      "day": 26,
+      "hour": 1,
+      "commodity": "STRAWBERRY",
+      "quantity": 21,
+      "unit_price": 241,
+      "revenue": 5061,
+      "pre_inv": 9791,
+      "post_inv": 9812,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 625,
+      "day": 26,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 4,
+      "unit_price": 236,
+      "revenue": 944,
+      "pre_inv": 9931,
+      "post_inv": 9935,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 625,
+      "day": 26,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 2,
+      "unit_price": 56,
+      "revenue": 112,
+      "pre_inv": 10218,
+      "post_inv": 10219,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 626,
+      "day": 26,
+      "hour": 2,
+      "commodity": "WHEAT",
+      "quantity": 5,
+      "unit_price": 47,
+      "revenue": 235,
+      "pre_inv": 9529,
+      "post_inv": 9529,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 626,
+      "day": 26,
+      "hour": 2,
+      "commodity": "FERTILIZER",
+      "quantity": 3,
+      "unit_price": 56,
+      "revenue": 168,
+      "pre_inv": 10219,
+      "post_inv": 10222,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 627,
+      "day": 26,
+      "hour": 3,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 47,
+      "revenue": 94,
+      "pre_inv": 9529,
+      "post_inv": 9529,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 627,
+      "day": 26,
+      "hour": 3,
+      "commodity": "FERTILIZER",
+      "quantity": 2,
+      "unit_price": 56,
+      "revenue": 112,
+      "pre_inv": 10222,
+      "post_inv": 10224,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 629,
+      "day": 26,
+      "hour": 5,
+      "commodity": "WHEAT",
+      "quantity": 39,
+      "unit_price": 48,
+      "revenue": 1872,
+      "pre_inv": 9483,
+      "post_inv": 9522,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 629,
+      "day": 26,
+      "hour": 5,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 55,
+      "revenue": 55,
+      "pre_inv": 10225,
+      "post_inv": 10226,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 630,
+      "day": 26,
+      "hour": 6,
+      "commodity": "WHEAT",
+      "quantity": 19,
+      "unit_price": 47,
+      "revenue": 893,
+      "pre_inv": 9522,
+      "post_inv": 9541,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 631,
+      "day": 26,
+      "hour": 7,
+      "commodity": "WHEAT",
+      "quantity": 10,
+      "unit_price": 46,
+      "revenue": 460,
+      "pre_inv": 9541,
+      "post_inv": 9551,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 633,
+      "day": 26,
+      "hour": 9,
+      "commodity": "WHEAT",
+      "quantity": 3,
+      "unit_price": 46,
+      "revenue": 138,
+      "pre_inv": 9544,
+      "post_inv": 9547,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 637,
+      "day": 26,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 60,
+      "unit_price": 48,
+      "revenue": 2880,
+      "pre_inv": 9480,
+      "post_inv": 9540,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 641,
+      "day": 26,
+      "hour": 17,
+      "commodity": "WHEAT",
+      "quantity": 60,
+      "unit_price": 48,
+      "revenue": 2880,
+      "pre_inv": 9473,
+      "post_inv": 9533,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 645,
+      "day": 26,
+      "hour": 21,
+      "commodity": "WHEAT",
+      "quantity": 60,
+      "unit_price": 48,
+      "revenue": 2880,
+      "pre_inv": 9466,
+      "post_inv": 9526,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 646,
+      "day": 26,
+      "hour": 22,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 55,
+      "revenue": 55,
+      "pre_inv": 10226,
+      "post_inv": 10227,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 649,
+      "day": 27,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 12,
+      "unit_price": 47,
+      "revenue": 564,
+      "pre_inv": 9518,
+      "post_inv": 9524,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 649,
+      "day": 27,
+      "hour": 1,
+      "commodity": "EGG",
+      "quantity": 4,
+      "unit_price": 72,
+      "revenue": 288,
+      "pre_inv": 9645,
+      "post_inv": 9649,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 649,
+      "day": 27,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 7,
+      "unit_price": 237,
+      "revenue": 1659,
+      "pre_inv": 9922,
+      "post_inv": 9929,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 649,
+      "day": 27,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 13,
+      "unit_price": 55,
+      "revenue": 715,
+      "pre_inv": 10227,
+      "post_inv": 10240,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 650,
+      "day": 27,
+      "hour": 2,
+      "commodity": "WHEAT",
+      "quantity": 9,
+      "unit_price": 47,
+      "revenue": 423,
+      "pre_inv": 9524,
+      "post_inv": 9524,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 650,
+      "day": 27,
+      "hour": 2,
+      "commodity": "EGG",
+      "quantity": 2,
+      "unit_price": 72,
+      "revenue": 144,
+      "pre_inv": 9649,
+      "post_inv": 9651,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 650,
+      "day": 27,
+      "hour": 2,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 52,
+      "revenue": 52,
+      "pre_inv": 10240,
+      "post_inv": 10241,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 651,
+      "day": 27,
+      "hour": 3,
+      "commodity": "WHEAT",
+      "quantity": 15,
+      "unit_price": 47,
+      "revenue": 705,
+      "pre_inv": 9524,
+      "post_inv": 9539,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 653,
+      "day": 27,
+      "hour": 5,
+      "commodity": "MILK",
+      "quantity": 1,
+      "unit_price": 154,
+      "revenue": 154,
+      "pre_inv": 10003,
+      "post_inv": 10004,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 654,
+      "day": 27,
+      "hour": 6,
+      "commodity": "MILK",
+      "quantity": 1,
+      "unit_price": 152,
+      "revenue": 152,
+      "pre_inv": 10004,
+      "post_inv": 10005,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 656,
+      "day": 27,
+      "hour": 8,
+      "commodity": "MILK",
+      "quantity": 1,
+      "unit_price": 147,
+      "revenue": 147,
+      "pre_inv": 10006,
+      "post_inv": 10004,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 657,
+      "day": 27,
+      "hour": 9,
+      "commodity": "WHEAT",
+      "quantity": 10,
+      "unit_price": 47,
+      "revenue": 470,
+      "pre_inv": 9525,
+      "post_inv": 9535,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 657,
+      "day": 27,
+      "hour": 9,
+      "commodity": "MILK",
+      "quantity": 8,
+      "unit_price": 152,
+      "revenue": 1216,
+      "pre_inv": 10004,
+      "post_inv": 10012,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 659,
+      "day": 27,
+      "hour": 11,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 47,
+      "revenue": 94,
+      "pre_inv": 9535,
+      "post_inv": 9537,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 672,
+      "day": 28,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 6,
+      "unit_price": 47,
+      "revenue": 282,
+      "pre_inv": 9516,
+      "post_inv": 9508,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 672,
+      "day": 28,
+      "hour": 0,
+      "commodity": "STRAWBERRY",
+      "quantity": 3,
+      "unit_price": 253,
+      "revenue": 759,
+      "pre_inv": 9751,
+      "post_inv": 9747,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 673,
+      "day": 28,
+      "hour": 1,
+      "commodity": "WHEAT",
+      "quantity": 13,
+      "unit_price": 47,
+      "revenue": 611,
+      "pre_inv": 9508,
+      "post_inv": 9510,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 673,
+      "day": 28,
+      "hour": 1,
+      "commodity": "CARROT",
+      "quantity": 16,
+      "unit_price": 37,
+      "revenue": 592,
+      "pre_inv": 9971,
+      "post_inv": 9987,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 673,
+      "day": 28,
+      "hour": 1,
+      "commodity": "EGG",
+      "quantity": 8,
+      "unit_price": 75,
+      "revenue": 600,
+      "pre_inv": 9628,
+      "post_inv": 9636,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 673,
+      "day": 28,
+      "hour": 1,
+      "commodity": "MILK",
+      "quantity": 3,
+      "unit_price": 169,
+      "revenue": 507,
+      "pre_inv": 9999,
+      "post_inv": 10002,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 673,
+      "day": 28,
+      "hour": 1,
+      "commodity": "WOOL",
+      "quantity": 11,
+      "unit_price": 238,
+      "revenue": 2618,
+      "pre_inv": 9916,
+      "post_inv": 9927,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 673,
+      "day": 28,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 6,
+      "unit_price": 52,
+      "revenue": 312,
+      "pre_inv": 10242,
+      "post_inv": 10248,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 675,
+      "day": 28,
+      "hour": 3,
+      "commodity": "WHEAT",
+      "quantity": 5,
+      "unit_price": 47,
+      "revenue": 235,
+      "pre_inv": 9510,
+      "post_inv": 9515,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 684,
+      "day": 28,
+      "hour": 12,
+      "commodity": "STRAWBERRY",
+      "quantity": 3,
+      "unit_price": 257,
+      "revenue": 771,
+      "pre_inv": 9735,
+      "post_inv": 9732,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 684,
+      "day": 28,
+      "hour": 12,
+      "commodity": "MILK",
+      "quantity": 3,
+      "unit_price": 177,
+      "revenue": 531,
+      "pre_inv": 9996,
+      "post_inv": 9996,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 685,
+      "day": 28,
+      "hour": 13,
+      "commodity": "STRAWBERRY",
+      "quantity": 3,
+      "unit_price": 258,
+      "revenue": 774,
+      "pre_inv": 9732,
+      "post_inv": 9735,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 685,
+      "day": 28,
+      "hour": 13,
+      "commodity": "MILK",
+      "quantity": 1,
+      "unit_price": 177,
+      "revenue": 177,
+      "pre_inv": 9996,
+      "post_inv": 9997,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 686,
+      "day": 28,
+      "hour": 14,
+      "commodity": "STRAWBERRY",
+      "quantity": 3,
+      "unit_price": 257,
+      "revenue": 771,
+      "pre_inv": 9735,
+      "post_inv": 9738,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 686,
+      "day": 28,
+      "hour": 14,
+      "commodity": "MILK",
+      "quantity": 1,
+      "unit_price": 175,
+      "revenue": 175,
+      "pre_inv": 9997,
+      "post_inv": 9998,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 687,
+      "day": 28,
+      "hour": 15,
+      "commodity": "STRAWBERRY",
+      "quantity": 3,
+      "unit_price": 256,
+      "revenue": 768,
+      "pre_inv": 9738,
+      "post_inv": 9741,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 687,
+      "day": 28,
+      "hour": 15,
+      "commodity": "MILK",
+      "quantity": 1,
+      "unit_price": 172,
+      "revenue": 172,
+      "pre_inv": 9998,
+      "post_inv": 9999,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 688,
+      "day": 28,
+      "hour": 16,
+      "commodity": "STRAWBERRY",
+      "quantity": 3,
+      "unit_price": 255,
+      "revenue": 765,
+      "pre_inv": 9741,
+      "post_inv": 9738,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 688,
+      "day": 28,
+      "hour": 16,
+      "commodity": "MILK",
+      "quantity": 1,
+      "unit_price": 169,
+      "revenue": 169,
+      "pre_inv": 9999,
+      "post_inv": 9997,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 689,
+      "day": 28,
+      "hour": 17,
+      "commodity": "STRAWBERRY",
+      "quantity": 2,
+      "unit_price": 256,
+      "revenue": 512,
+      "pre_inv": 9738,
+      "post_inv": 9740,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 689,
+      "day": 28,
+      "hour": 17,
+      "commodity": "MILK",
+      "quantity": 1,
+      "unit_price": 175,
+      "revenue": 175,
+      "pre_inv": 9997,
+      "post_inv": 9998,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 696,
+      "day": 29,
+      "hour": 0,
+      "commodity": "WHEAT",
+      "quantity": 36,
+      "unit_price": 47,
+      "revenue": 1692,
+      "pre_inv": 9496,
+      "post_inv": 9524,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 697,
+      "day": 29,
+      "hour": 1,
+      "commodity": "CARROT",
+      "quantity": 30,
+      "unit_price": 36,
+      "revenue": 1080,
+      "pre_inv": 9989,
+      "post_inv": 10019,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 697,
+      "day": 29,
+      "hour": 1,
+      "commodity": "EGG",
+      "quantity": 6,
+      "unit_price": 77,
+      "revenue": 462,
+      "pre_inv": 9615,
+      "post_inv": 9621,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 697,
+      "day": 29,
+      "hour": 1,
+      "commodity": "MILK",
+      "quantity": 1,
+      "unit_price": 186,
+      "revenue": 186,
+      "pre_inv": 9991,
+      "post_inv": 9992,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 697,
+      "day": 29,
+      "hour": 1,
+      "commodity": "FERTILIZER",
+      "quantity": 1,
+      "unit_price": 49,
+      "revenue": 49,
+      "pre_inv": 10253,
+      "post_inv": 10254,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 698,
+      "day": 29,
+      "hour": 2,
+      "commodity": "FERTILIZER",
+      "quantity": 5,
+      "unit_price": 49,
+      "revenue": 245,
+      "pre_inv": 10254,
+      "post_inv": 10259,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 705,
+      "day": 29,
+      "hour": 9,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 47,
+      "revenue": 94,
+      "pre_inv": 9510,
+      "post_inv": 9512,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 709,
+      "day": 29,
+      "hour": 13,
+      "commodity": "WHEAT",
+      "quantity": 2,
+      "unit_price": 47,
+      "revenue": 94,
+      "pre_inv": 9505,
+      "post_inv": 9507,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "step": 712,
+      "day": 29,
+      "hour": 16,
+      "commodity": "WHEAT",
+      "quantity": 5,
+      "unit_price": 47,
+      "revenue": 235,
+      "pre_inv": 9509,
+      "post_inv": 9507,
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    }
+  ],
+  "daily_snapshots": [
+    {
+      "day": 0,
+      "money": 15.0,
+      "hands": 0,
+      "unlocked_quadrants": 1,
+      "pens": 4,
+      "animals": {
+        "SHEEP": 2,
+        "COW": 2
+      },
+      "crops": {
+        "WHEAT": 8,
+        "MELON": 12
+      },
+      "shed": {
+        "WHEAT": 3,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": []
+    },
+    {
+      "day": 1,
+      "money": 113.0,
+      "hands": 0,
+      "unlocked_quadrants": 1,
+      "pens": 5,
+      "animals": {
+        "SHEEP": 2,
+        "COW": 2
+      },
+      "crops": {
+        "WHEAT": 8,
+        "MELON": 12
+      },
+      "shed": {
+        "WHEAT": 6,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": []
+    },
+    {
+      "day": 2,
+      "money": 229.0,
+      "hands": 0,
+      "unlocked_quadrants": 1,
+      "pens": 5,
+      "animals": {
+        "COW": 3,
+        "SHEEP": 2
+      },
+      "crops": {
+        "WHEAT": 8,
+        "MELON": 12
+      },
+      "shed": {
+        "WHEAT": 6,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 0,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY"
+      ]
+    },
+    {
+      "day": 3,
+      "money": 285.0,
+      "hands": 0,
+      "unlocked_quadrants": 1,
+      "pens": 6,
+      "animals": {
+        "COW": 4,
+        "SHEEP": 2
+      },
+      "crops": {
+        "WHEAT": 7,
+        "MELON": 12
+      },
+      "shed": {
+        "WHEAT": 14,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY"
+      ]
+    },
+    {
+      "day": 4,
+      "money": 710.0,
+      "hands": 0,
+      "unlocked_quadrants": 1,
+      "pens": 6,
+      "animals": {
+        "COW": 4,
+        "SHEEP": 2
+      },
+      "crops": {
+        "WHEAT": 7,
+        "MELON": 12
+      },
+      "shed": {
+        "WHEAT": 19,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY"
+      ]
+    },
+    {
+      "day": 5,
+      "money": 843.0,
+      "hands": 0,
+      "unlocked_quadrants": 1,
+      "pens": 6,
+      "animals": {
+        "COW": 4,
+        "SHEEP": 2
+      },
+      "crops": {
+        "WHEAT": 3,
+        "STRAWBERRY": 4,
+        "MELON": 12
+      },
+      "shed": {
+        "WHEAT": 19,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 2,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "day": 6,
+      "money": 1484.0,
+      "hands": 0,
+      "unlocked_quadrants": 2,
+      "pens": 13,
+      "animals": {
+        "COW": 4,
+        "SHEEP": 2,
+        "GOOSE": 2
+      },
+      "crops": {
+        "STRAWBERRY": 12,
+        "MELON": 12,
+        "WHEAT": 5
+      },
+      "shed": {
+        "WHEAT": 18,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "day": 7,
+      "money": 958.0,
+      "hands": 0,
+      "unlocked_quadrants": 2,
+      "pens": 13,
+      "animals": {
+        "COW": 6,
+        "SHEEP": 2,
+        "GOOSE": 2
+      },
+      "crops": {
+        "WHEAT": 9,
+        "STRAWBERRY": 16,
+        "MELON": 12
+      },
+      "shed": {
+        "WHEAT": 11,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "day": 8,
+      "money": 1829.0,
+      "hands": 0,
+      "unlocked_quadrants": 2,
+      "pens": 13,
+      "animals": {
+        "COW": 6,
+        "SHEEP": 4,
+        "GOOSE": 2
+      },
+      "crops": {
+        "WHEAT": 5,
+        "STRAWBERRY": 20,
+        "MELON": 12
+      },
+      "shed": {
+        "WHEAT": 27,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 2,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "day": 9,
+      "money": 2987.0,
+      "hands": 0,
+      "unlocked_quadrants": 2,
+      "pens": 13,
+      "animals": {
+        "COW": 6,
+        "SHEEP": 5,
+        "GOOSE": 2
+      },
+      "crops": {
+        "WHEAT": 5,
+        "STRAWBERRY": 20,
+        "MELON": 12
+      },
+      "shed": {
+        "WHEAT": 36,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 1,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 1
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "day": 10,
+      "money": 17465.0,
+      "hands": 0,
+      "unlocked_quadrants": 2,
+      "pens": 18,
+      "animals": {
+        "GOOSE": 4,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 12,
+        "STRAWBERRY": 20
+      },
+      "shed": {
+        "WHEAT": 54,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 12,
+        "EGG": 7,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 13,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "day": 11,
+      "money": 18437.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 18,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "STRAWBERRY": 33,
+        "WHEAT": 20
+      },
+      "shed": {
+        "WHEAT": 51,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 16,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "day": 12,
+      "money": 22619.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 18,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 24,
+        "STRAWBERRY": 33
+      },
+      "shed": {
+        "WHEAT": 26,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 6,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 17,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "day": 13,
+      "money": 25242.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 18,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 24,
+        "STRAWBERRY": 33
+      },
+      "shed": {
+        "WHEAT": 16,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 0,
+        "MILK": 0,
+        "WOOL": 0,
+        "FERTILIZER": 17,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE"
+      ]
+    },
+    {
+      "day": 14,
+      "money": 29665.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 18,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 24,
+        "STRAWBERRY": 33
+      },
+      "shed": {
+        "WHEAT": 21,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 8,
+        "MILK": 6,
+        "WOOL": 0,
+        "FERTILIZER": 12,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "day": 15,
+      "money": 34149.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 24,
+        "STRAWBERRY": 33
+      },
+      "shed": {
+        "WHEAT": 23,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 8,
+        "MILK": 0,
+        "WOOL": 14,
+        "FERTILIZER": 12,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "day": 16,
+      "money": 43926.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 25,
+        "STRAWBERRY": 33
+      },
+      "shed": {
+        "WHEAT": 26,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 5,
+        "MILK": 3,
+        "WOOL": 0,
+        "FERTILIZER": 15,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ]
+    },
+    {
+      "day": 17,
+      "money": 50135.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 25,
+        "STRAWBERRY": 33
+      },
+      "shed": {
+        "WHEAT": 26,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 4,
+        "MILK": 9,
+        "WOOL": 2,
+        "FERTILIZER": 17,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "day": 18,
+      "money": 57006.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 25,
+        "STRAWBERRY": 33
+      },
+      "shed": {
+        "WHEAT": 26,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 8,
+        "MELON": 0,
+        "EGG": 10,
+        "MILK": 6,
+        "WOOL": 8,
+        "FERTILIZER": 12,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "day": 19,
+      "money": 63969.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 25,
+        "STRAWBERRY": 33
+      },
+      "shed": {
+        "WHEAT": 28,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 6,
+        "MELON": 0,
+        "EGG": 10,
+        "MILK": 6,
+        "WOOL": 4,
+        "FERTILIZER": 16,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "day": 20,
+      "money": 71236.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 25,
+        "STRAWBERRY": 33
+      },
+      "shed": {
+        "WHEAT": 31,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 6,
+        "MELON": 0,
+        "EGG": 9,
+        "MILK": 4,
+        "WOOL": 8,
+        "FERTILIZER": 17,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "day": 21,
+      "money": 81523.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 30,
+        "STRAWBERRY": 27
+      },
+      "shed": {
+        "WHEAT": 28,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 13,
+        "MELON": 0,
+        "EGG": 9,
+        "MILK": 6,
+        "WOOL": 4,
+        "FERTILIZER": 16,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "day": 22,
+      "money": 89159.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 31,
+        "STRAWBERRY": 27
+      },
+      "shed": {
+        "WHEAT": 38,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 13,
+        "MELON": 0,
+        "EGG": 8,
+        "MILK": 4,
+        "WOOL": 8,
+        "FERTILIZER": 16,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "day": 23,
+      "money": 97501.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 38,
+        "STRAWBERRY": 20
+      },
+      "shed": {
+        "WHEAT": 35,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 21,
+        "MELON": 0,
+        "EGG": 12,
+        "MILK": 7,
+        "WOOL": 8,
+        "FERTILIZER": 16,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "day": 24,
+      "money": 107703.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "WHEAT": 37,
+        "CARROT": 4,
+        "STRAWBERRY": 17
+      },
+      "shed": {
+        "WHEAT": 50,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 7,
+        "MELON": 0,
+        "EGG": 10,
+        "MILK": 9,
+        "WOOL": 4,
+        "FERTILIZER": 16,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "day": 25,
+      "money": 114270.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "CARROT": 18,
+        "WHEAT": 27,
+        "STRAWBERRY": 13
+      },
+      "shed": {
+        "WHEAT": 48,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 21,
+        "MELON": 0,
+        "EGG": 4,
+        "MILK": 9,
+        "WOOL": 4,
+        "FERTILIZER": 14,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "day": 26,
+      "money": 123368.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "CARROT": 29,
+        "WHEAT": 16,
+        "STRAWBERRY": 13
+      },
+      "shed": {
+        "WHEAT": 49,
+        "CARROT": 0,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 6,
+        "MILK": 9,
+        "WOOL": 7,
+        "FERTILIZER": 14,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "day": 27,
+      "money": 130969.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 17,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "CARROT": 23,
+        "WHEAT": 18,
+        "STRAWBERRY": 4
+      },
+      "shed": {
+        "WHEAT": 30,
+        "CARROT": 16,
+        "TOMATO": 0,
+        "STRAWBERRY": 20,
+        "MELON": 0,
+        "EGG": 8,
+        "MILK": 3,
+        "WOOL": 11,
+        "FERTILIZER": 6,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    },
+    {
+      "day": 28,
+      "money": 144299.0,
+      "hands": 0,
+      "unlocked_quadrants": 3,
+      "pens": 18,
+      "animals": {
+        "GOOSE": 5,
+        "COW": 6,
+        "SHEEP": 6
+      },
+      "crops": {
+        "CARROT": 12,
+        "WHEAT": 9
+      },
+      "shed": {
+        "WHEAT": 41,
+        "CARROT": 30,
+        "TOMATO": 0,
+        "STRAWBERRY": 0,
+        "MELON": 0,
+        "EGG": 6,
+        "MILK": 1,
+        "WOOL": 0,
+        "FERTILIZER": 6,
+        "GOOSE": 0,
+        "COW": 0,
+        "SHEEP": 0
+      },
+      "unlocked_shops": [
+        "BAKERY",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "YARN_STORE",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ]
+    }
+  ]
+}
