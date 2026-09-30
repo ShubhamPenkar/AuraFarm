@@ -473,6 +473,7 @@ class AuraFarmV3:
         
         mature_crops = []
         mature_strawberries = []
+        fertilize_strawberries = []
         unwatered_crops = []
         fresh_unwatered_plants = []
         weeds = []
@@ -533,6 +534,12 @@ class AuraFarmV3:
                                     mature_crops.append(pos)
                                     if crop_name == "STRAWBERRY":
                                         mature_strawberries.append(pos)
+                                if (
+                                    crop_name == "STRAWBERRY"
+                                    and 8 <= age <= 15
+                                    and tile.get("fertilized_until_day", -1) < self.day
+                                ):
+                                    fertilize_strawberries.append(pos)
 
         # ----------------------------------------------------------------------
         # C. WORKFORCE ROLE ALLOCATION
@@ -711,35 +718,42 @@ class AuraFarmV3:
                     target = min(valid_fresh, key=lambda p: manhattan(u_pos, p))
                     assigned_targets.add(target)
 
-            # B. Premium strawberry harvests.
+            # B. Fertilize premium strawberries when a field worker can carry fertilizer.
+            if not target and not is_caretaker and u_inv.get("FERTILIZER", 0) > 0 and fertilize_strawberries:
+                valid_fert = [c for c in fertilize_strawberries if c not in assigned_targets]
+                if valid_fert:
+                    target = min(valid_fert, key=lambda p: manhattan(u_pos, p))
+                    assigned_targets.add(target)
+
+            # C. Premium strawberry harvests.
             if not target and mature_strawberries:
                 valid_straw = [c for c in mature_strawberries if c not in assigned_targets]
                 if valid_straw:
                     target = min(valid_straw, key=lambda p: manhattan(u_pos, p))
                     assigned_targets.add(target)
 
-            # C. Other mature crop harvests.
+            # D. Other mature crop harvests.
             if not target and mature_crops:
                 valid_mature = [c for c in mature_crops if c not in assigned_targets]
                 if valid_mature:
                     target = min(valid_mature, key=lambda p: manhattan(u_pos, p))
                     assigned_targets.add(target)
 
-            # D. Watering Unwatered Crops
+            # E. Watering Unwatered Crops
             if not target and unwatered_crops:
                 valid_water = [c for c in unwatered_crops if c not in assigned_targets]
                 if valid_water:
                     target = min(valid_water, key=lambda p: manhattan(u_pos, p))
                     assigned_targets.add(target)
                     
-            # D. Pen Building
+            # F. Pen Building
             if not target and unbuilt_pen_slots:
                 valid_pen_slots = [p for p in unbuilt_pen_slots if p not in assigned_targets]
                 if valid_pen_slots:
                     target = min(valid_pen_slots, key=lambda p: manhattan(u_pos, p))
                     assigned_targets.add(target)
                     
-            # E. Planting Empty Crop Slots
+            # G. Planting Empty Crop Slots
             if not target and empty_crop_slots:
                 valid_empty = [e for e in empty_crop_slots if e not in assigned_targets]
                 if valid_empty:
