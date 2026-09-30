@@ -1,5 +1,5 @@
 """
-AuraFarm V3: Autonomous Industrial Economic & Planning Agent for Kaggle Kaggriculture.
+AuraFarm V4: Strawberry Lifecycle + Capital Discipline Agent for Kaggle Kaggriculture.
 Built on empirical simulator reverse-engineering:
 - Exact simulator constants, market parameters, and town shop demand curves
 - Aggressive Day-0 Capital Allocation ($2,912 capex: 4 livestock + 12 Melons + feed buffer + 5 hands)
@@ -8,6 +8,10 @@ Built on empirical simulator reverse-engineering:
 - Town-Drained Wheat Production Engine (25-35 tiles, 60-90 unit batch sales capturing peak prices)
 - Scaled Industrial Workforce (scaling to 11 hands daily across 3 quadrants / 75 tiles)
 - Spatial Clustered Dispatch & Conflict-Free Shed Logistics
+- Lifecycle-safe planting and fresh-seed watering
+- Strawberry-focused production with bounded planting and repeated harvests
+- Reduced caretaker reservation for premium-crop throughput
+- Capital discipline: smaller seed buffers and no late crop spam
 - Terminal Liquidation on Step 718
 
 Standard library only. Robust against unexpected observation shapes.
@@ -31,6 +35,11 @@ TURNS_PER_DAY = 24
 TOTAL_DAYS = 30
 TOTAL_STEPS = 720
 LAST_ACT_STEP = 718
+
+TARGET_STRAWBERRIES = 60
+TARGET_WHEAT_PLANTS = 30
+TARGET_CARROT_PLANTS = 8
+MAX_NEW_STRAWBERRIES_PER_DAY = 6
 
 CROPS = {
     "WHEAT":      {"seed": 10, "first_yield_day": 2, "max_yield_day": 4, "interval": 0, "max_yield": 6, "ongoing": False},
@@ -320,7 +329,15 @@ class AuraFarmV3:
         inventories = private.get("inventories", [{}])
         market_inv = market.get("inventory", {})
         market_prices = market.get("prices", {})
-        
+
+        active_crop_counts = collections.Counter()
+        for row in tiles:
+            for tile in row:
+                if isinstance(tile, dict) and tile.get("kind") == "PLANT":
+                    crop = tile.get("crop")
+                    if crop:
+                        active_crop_counts[crop] += 1
+
         # ----------------------------------------------------------------------
         # A. STRATEGIC MARKET ORDERS
         # ----------------------------------------------------------------------
@@ -379,15 +396,18 @@ class AuraFarmV3:
             market_orders.append(["BUY_ANIMAL", "COW", 4])
             market_orders.append(["BUY_ANIMAL", "SHEEP", 4])
             
-        # 7. Seed Buffer Management
-        if self.day < 24 and len(market_orders) < MAX_ORDERS:
-            if seeds.get("WHEAT", 0) < 25 and money >= 300:
-                market_orders.append(["BUY_SEED", "WHEAT", 25])
-            if self.day >= 6 and seeds.get("STRAWBERRY", 0) < 25 and money >= 1200 and len(market_orders) < MAX_ORDERS:
-                market_orders.append(["BUY_SEED", "STRAWBERRY", 25])
+        # 7. V4 Seed Management
+        if self.day <= 18 and len(market_orders) < MAX_ORDERS:
+            strawberry_gap = max(0, TARGET_STRAWBERRIES - active_crop_counts.get("STRAWBERRY", 0) - seeds.get("STRAWBERRY", 0))
+            if self.day >= 6 and strawberry_gap > 0 and money >= 100:
+                market_orders.append(["BUY_SEED", "STRAWBERRY", min(10, strawberry_gap)])
+            wheat_gap = max(0, TARGET_WHEAT_PLANTS - active_crop_counts.get("WHEAT", 0) - seeds.get("WHEAT", 0))
+            if self.day <= 12 and wheat_gap > 0 and money >= 10:
+                market_orders.append(["BUY_SEED", "WHEAT", min(10, wheat_gap)])
         elif 24 <= self.day <= 26 and len(market_orders) < MAX_ORDERS:
-            if seeds.get("CARROT", 0) < 25 and money >= 400:
-                market_orders.append(["BUY_SEED", "CARROT", 25])
+            carrot_gap = max(0, TARGET_CARROT_PLANTS - active_crop_counts.get("CARROT", 0) - seeds.get("CARROT", 0))
+            if carrot_gap > 0 and money >= 20:
+                market_orders.append(["BUY_SEED", "CARROT", min(5, carrot_gap)])
                 
         # 8. Feed Buffer Guarantee (Never allow shed wheat to drop below 15)
         if shed.get("WHEAT", 0) < 15 and self.day < 28 and money >= 400 and len(market_orders) < MAX_ORDERS:
@@ -411,9 +431,9 @@ class AuraFarmV3:
         if melon_qty > 0 and len(market_orders) < MAX_ORDERS:
             market_orders.append(["SELL", "MELON", melon_qty])
             
-        # Strawberries: sell in batches of >= 10 or day >= 26
+        # Sell strawberry output promptly; don't strand premium produce in the shed.
         straw_qty = shed.get("STRAWBERRY", 0)
-        if (straw_qty >= 10 or (straw_qty > 0 and self.day >= 26)) and len(market_orders) < MAX_ORDERS:
+        if straw_qty > 0 and len(market_orders) < MAX_ORDERS:
             market_orders.append(["SELL", "STRAWBERRY", straw_qty])
             
         # Wheat: batch sell in blocks of 60-90 units into town-depleted high prices, or early game cash flow
@@ -452,7 +472,10 @@ class AuraFarmV3:
         unbuilt_pen_slots = []
         
         mature_crops = []
+        mature_strawberries = []
+        fertilize_strawberries = []
         unwatered_crops = []
+        fresh_unwatered_plants = []
         weeds = []
         empty_crop_slots = []
         
@@ -505,18 +528,27 @@ class AuraFarmV3:
                                 age = self.day - tile.get("planted_day", 0)
                                 if not tile.get("watered_today", False):
                                     unwatered_crops.append(pos)
+                                    if tile.get("planted_day", -1) == self.day:
+                                        fresh_unwatered_plants.append(pos)
                                 if age >= cdata.get("first_yield_day", 99) and tile.get("yield_units", 0) > 0:
                                     mature_crops.append(pos)
+                                    if crop_name == "STRAWBERRY":
+                                        mature_strawberries.append(pos)
+                                if (
+                                    crop_name == "STRAWBERRY"
+                                    and 8 <= age <= 15
+                                    and tile.get("fertilized_until_day", -1) < self.day
+                                ):
+                                    fertilize_strawberries.append(pos)
 
         # ----------------------------------------------------------------------
         # C. WORKFORCE ROLE ALLOCATION
         # ----------------------------------------------------------------------
-        # Determine number of dedicated caretakers based on live animals
-        # 1-4 animals: 2 caretakers; 5-8 animals: 3 caretakers; 9+ animals: 4-5 caretakers
+        # V4: keep livestock covered without permanently reserving too many hands.
+        # The real ladder games showed premium-crop throughput collapsing when
+        # four hands were locked into caretaker duty.
         num_caretakers = 2
-        if total_live_animals >= 9 or len(empty_pens_with_structure) >= 4:
-            num_caretakers = 4
-        elif total_live_animals >= 5:
+        if total_live_animals >= 9 or len(empty_pens_with_structure) >= 6:
             num_caretakers = 3
         num_caretakers = min(num_caretakers, num_units)
         
@@ -562,7 +594,14 @@ class AuraFarmV3:
                     crop_name = curr_tile.get("crop")
                     cdata = CROPS.get(crop_name, {})
                     age = self.day - curr_tile.get("planted_day", 0)
-                    if age >= cdata.get("first_yield_day", 99) and curr_tile.get("yield_units", 0) > 0:
+                    if (
+                        crop_name == "STRAWBERRY"
+                        and u_inv.get("FERTILIZER", 0) > 0
+                        and curr_tile.get("fertilized_until_day", -1) < self.day
+                        and 8 <= age <= 15
+                    ):
+                        action = ["FERTILIZE"]
+                    elif age >= cdata.get("first_yield_day", 99) and curr_tile.get("yield_units", 0) > 0:
                         action = ["HARVEST"]
                     elif not curr_tile.get("watered_today", False):
                         action = ["WATER"]
@@ -574,19 +613,27 @@ class AuraFarmV3:
                     # Pen slot needs structure
                     action = ["BUILD_PASTURE"]
                 else:
-                    # Empty crop slot
+                    # Empty crop slot: bounded production, no late strawberry spam.
                     if self.day == 0 and seeds.get("MELON", 0) > 0:
                         action = ["PLANT", "MELON"]
-                    elif 24 <= self.day <= 28 and seeds.get("CARROT", 0) > 0:
-                        action = ["PLANT", "CARROT"]
-                    elif self.day >= 6 and seeds.get("STRAWBERRY", 0) > 0 and (ux >= 5 or uy >= 5):
+                    elif (
+                        6 <= self.day <= 18
+                        and active_crop_counts.get("STRAWBERRY", 0) < TARGET_STRAWBERRIES
+                        and seeds.get("STRAWBERRY", 0) > 0
+                    ):
                         action = ["PLANT", "STRAWBERRY"]
-                    elif seeds.get("WHEAT", 0) > 0:
+                    elif (
+                        self.day <= 12
+                        and active_crop_counts.get("WHEAT", 0) < TARGET_WHEAT_PLANTS
+                        and seeds.get("WHEAT", 0) > 0
+                    ):
                         action = ["PLANT", "WHEAT"]
-                    elif seeds.get("MELON", 0) > 0:
-                        action = ["PLANT", "MELON"]
-                    elif seeds.get("STRAWBERRY", 0) > 0:
-                        action = ["PLANT", "STRAWBERRY"]
+                    elif (
+                        24 <= self.day <= 26
+                        and active_crop_counts.get("CARROT", 0) < TARGET_CARROT_PLANTS
+                        and seeds.get("CARROT", 0) > 0
+                    ):
+                        action = ["PLANT", "CARROT"]
                         
             if action != ["PASS"]:
                 unit_actions.append(action)
@@ -604,13 +651,21 @@ class AuraFarmV3:
                             shed_reserved[anim] += 1
                             break
                             
-                # Pick up Wheat feed if caretaker and inventory is low
+                # Pick up Wheat feed if caretaker and inventory is low.
                 if action == ["PASS"] and is_caretaker and u_inv.get("WHEAT", 0) < 10:
                     avail_wheat = shed.get("WHEAT", 0) - shed_reserved["WHEAT"]
                     if avail_wheat > 0:
                         take_qty = min(20, avail_wheat)
                         action = ["PICKUP", "WHEAT", take_qty]
                         shed_reserved["WHEAT"] += take_qty
+
+                # Field workers carry a small fertilizer buffer for strawberries.
+                if action == ["PASS"] and not is_caretaker and u_inv.get("FERTILIZER", 0) < 2:
+                    avail_fert = shed.get("FERTILIZER", 0) - shed_reserved["FERTILIZER"]
+                    if avail_fert > 0:
+                        take_qty = min(3, avail_fert)
+                        action = ["PICKUP", "FERTILIZER", take_qty]
+                        shed_reserved["FERTILIZER"] += take_qty
                         
             if action != ["PASS"]:
                 unit_actions.append(action)
@@ -656,35 +711,49 @@ class AuraFarmV3:
                             assigned_targets.add(target)
 
             # 3. Crop Harvesters & Field Workers (or idle Caretakers)
-            # A. Weeds (top crop priority)
-            if not target and weeds:
-                valid_weeds = [w for w in weeds if w not in assigned_targets]
-                if valid_weeds:
-                    target = min(valid_weeds, key=lambda p: manhattan(u_pos, p))
+            # A. Freshly planted crops must be watered before the day refresh.
+            if not target and fresh_unwatered_plants:
+                valid_fresh = [p for p in fresh_unwatered_plants if p not in assigned_targets]
+                if valid_fresh:
+                    target = min(valid_fresh, key=lambda p: manhattan(u_pos, p))
                     assigned_targets.add(target)
-                    
-            # B. Mature Crop Harvest
+
+            # B. Fertilize premium strawberries when a field worker can carry fertilizer.
+            if not target and not is_caretaker and u_inv.get("FERTILIZER", 0) > 0 and fertilize_strawberries:
+                valid_fert = [c for c in fertilize_strawberries if c not in assigned_targets]
+                if valid_fert:
+                    target = min(valid_fert, key=lambda p: manhattan(u_pos, p))
+                    assigned_targets.add(target)
+
+            # C. Premium strawberry harvests.
+            if not target and mature_strawberries:
+                valid_straw = [c for c in mature_strawberries if c not in assigned_targets]
+                if valid_straw:
+                    target = min(valid_straw, key=lambda p: manhattan(u_pos, p))
+                    assigned_targets.add(target)
+
+            # D. Other mature crop harvests.
             if not target and mature_crops:
                 valid_mature = [c for c in mature_crops if c not in assigned_targets]
                 if valid_mature:
                     target = min(valid_mature, key=lambda p: manhattan(u_pos, p))
                     assigned_targets.add(target)
-                    
-            # C. Watering Unwatered Crops
+
+            # E. Watering Unwatered Crops
             if not target and unwatered_crops:
                 valid_water = [c for c in unwatered_crops if c not in assigned_targets]
                 if valid_water:
                     target = min(valid_water, key=lambda p: manhattan(u_pos, p))
                     assigned_targets.add(target)
                     
-            # D. Pen Building
+            # F. Pen Building
             if not target and unbuilt_pen_slots:
                 valid_pen_slots = [p for p in unbuilt_pen_slots if p not in assigned_targets]
                 if valid_pen_slots:
                     target = min(valid_pen_slots, key=lambda p: manhattan(u_pos, p))
                     assigned_targets.add(target)
                     
-            # E. Planting Empty Crop Slots
+            # G. Planting Empty Crop Slots
             if not target and empty_crop_slots:
                 valid_empty = [e for e in empty_crop_slots if e not in assigned_targets]
                 if valid_empty:
